@@ -1,0 +1,46 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="jumbotron"; style="background-color: #f2ccff">
+			<h1>Profile Information</h1>
+		</div>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="/Users/snehgirdhar/Documents/Sneh/Friend Matcher Project/Profile/Profile.html">Profile</a></li>
+			<li><a href="/Users/snehgirdhar/Documents/Sneh/Friend Matcher Project/List/Matches.html">Matches</a></li>
+		</ul>
+		<br>
+		<!-- <form id="profilepic_form">
+			<fieldset id="profilepic_controls">
+
+				<div style="width: 200px; height: 100px; position: relative; background-color: #fbfbfb;   border: 1px solid #b8b8b8; "data-controltype="image">
+					<img src="http://img.diamondseedsgroup.com/person/bsp44tzqr3_Blank_Avatar_Female.jpg" alt="Blank Photo" style="position: 	absolute; top: 0%; left: 0%; margin-left: 0px; margin-top: 30px">
+
+					<div style= "top:50px;"data-role="fieldcontain" data-controltype="camerainput">
+						<input type="file" name="" id="camerainput1" capture>
+					</div>
+
+				</div>
+			</fieldset>
+		</form> -->
+
+		
+		<form action="upload.php" method="post" enctype="multipart/form-data">
+			Select image to upload:
+			<input type="file" name="fileToUpload" id="fileToUpload">
+			<input type="submit" value="Upload Image" name="submit">
+		</form>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* p {
+	color: blue;
+	font-family: Verdana;
+}
+
+div {
+	display: inline-block;
+} */
+
+.button {
+	width:80px;
+	height:40px;
+	background-color: pink;
+}

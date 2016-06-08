@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Send Emails</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron"; style="background-color: #f2ccff">
+      <h1>Send an Email</h1>
+    </div>
+    <h2>Send an automated message to everyone by clicking the button below</h2>
+    <h2>Otherwise, choose the people you want to send a personal message to and enter it in the box below</h2>
+    <ul class="list-group">
+      <a href="#" class="list-group-item"><span class="badge">100</span> Kathy</a>
+      <a href="#" class="list-group-item"><span class="badge">87</span> Amanda</a>
+      <a href="#" class="list-group-item"><span class="badge">56</span> Chris</a> 
+    </ul>
+  </div>
+
+  <a href="/Users/snehgirdhar/Documents/Sneh/Friend Matcher Project/List/Email success page.html" class="btn btn-info" role="button" style="margin: 0px 0px 0px 70px; display: inline-block;">Submit Automated Message</a>
+
+      <!-- <form role="form">
+      <div class="form-group">
+        <label for="pwd">Personalized Message</label>
+        <input type="password" class="form-control" id="pwd">
+      </div>
+    </form> -->
+
+<form action="send emails.php" method="get">
+  Selected People: <input type="array()" name="$customs">
+  <input type="submit automated message" />
+  <input type="submit personalized message to selected people" />
+</form>
+
+      <a href="/Users/snehgirdhar/Documents/Sneh/Friend Matcher Project/Profile.html" class="btn btn-info disabled" role="button" style="display: inline-block; margin-left: 20px">Submit Personalized Message to Selected People</a>
+
+</body>
+</html>
+

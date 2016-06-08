@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link type="text/css"; rel="stylesheet"; href="Friend Matcher Register.css" />
+  <title>Custom Email</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron"; style="background-color: #f2ccff">
+  <h1>Custom Email</h1>
+  </div>
+ 
+  <form role="form">
+ <div class="form-group">
+    <label for="usr">Who would you like to send an email to? (copy/paste the names of the people--below--you would like to send the message to)</label>
+    <input type="text" class="form-control" id="usr">
+  </div>
+  <div class="form-group">
+  <label for="comment">Your Message:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  </form>
+</div>
+   
+<form action="custom emails.php" method="get">
+  Names: <input type="array()" name="$emaillist">
+  Your Message: <input type="text" name="message">
+  <input type="submit" />
+</form>
+
+  <a href="/Users/snehgirdhar/Documents/Sneh/Friend Matcher Project/Registration/Profile.html" class="btn btn-info" role="button" style="margin: 20px 0px 0px 70px">Submit</a>
+
+</div>
+
+</body>
+</html>
+
